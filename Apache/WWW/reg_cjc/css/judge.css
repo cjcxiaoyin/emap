@@ -1,0 +1,193 @@
+﻿ html{width:100%;
+     height:100%;
+	 overflow: hidden; 
+	 overflow-x: hidden; 
+	 font-size:20px;
+}
+body{width:100%; 
+    height:100%;
+    background: url(../pictures/pic_高.jpg) no-repeat;
+    background-size:cover;     /*这里设置了背景图片为覆盖，以填满整个容器*/
+}
+.cjc_user{
+	float:left;
+}
+.cjc_user_info{
+	color:#ffffff;
+}
+.cjc_user_right{
+	float:right;
+	margin-right:100px;
+}
+a{
+	color:green;
+}
+.map_2D{	
+	margin-top:12.8%;
+	left:10%;
+	position:absolute;
+}
+.map_3D{
+	margin-top:12.8%;
+	right:10%;
+	position:absolute;
+}
+.map_2D_button{
+	background: url(../pictures/china_1.jpg);
+	width:350px;
+	height:250px;
+	border-radius:15px;
+}
+.map_3D_button{
+	background: url(../pictures/earth.jpg);
+	width:350px;
+	height:250px;
+	border-radius:15px;
+}
+.map_2D_text{
+	cursor:pointer;
+	color:yellow;
+	text-align:center;
+}	
+.map_3D_text{
+	cursor:pointer;
+	color:yellow;
+	text-align:center;
+}
+.system_setting_dialog{
+	position:absolute;
+	top:20%;
+	left:40%;
+	width:400px;
+	height:400px;
+	border:1.5px solid grey;
+	border-radius:10px;
+	background-color:#fff;
+	display:none;
+}
+.cjc_header{
+	margin-top:8px;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+}
+.test_switch_checkbox{
+	display:none;
+}
+.cjc_on_off{
+	position:absolute;
+}
+.test_switch_label{
+	position:relative;
+	width:90px;
+	margin-left:180px;
+	-webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+	display: block; 
+    overflow: hidden; 
+    cursor: pointer;
+    border: 2px solid #999999; 
+    border-radius: 20px;
+}
+.test_switch_inner{
+	display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.test_switch_inner:before,.test_switch_inner:after{
+	display: block; 
+    float: right; 
+    width: 50%; 
+    height: 30px; 
+    padding: 0; 
+    line-height: 30px;
+    font-size: 14px; 
+    color: white; 
+    font-weight: bold;
+    box-sizing: border-box;
+
+}
+.test_switch_inner:before{
+	content: attr(data-on);
+    padding-right: 10px;
+    background-color: #00e500; 
+    color: #FFFFFF;
+	 text-align: right;
+}
+.test_switch_inner:after{
+	content: attr(data-off);
+    padding-left: 10px;
+    background-color: #EEEEEE; 
+    color: #999999;
+   
+}
+.test_switch_switch{
+	position: absolute; 
+    display: block; 
+    width: 22px;
+    height: 22px;
+    margin: 2px;
+    background: #FFFFFF;
+    top: 0; 
+    bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; 
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+
+}
+.test_switch_checkbox:checked + .test_switch_label .test_switch_inner {
+    margin-left: 0;
+}
+ 
+.test_switch_checkbox:checked + .test_switch_label .test_switch_switch {
+    right: 0px; 
+}
+.color_select_input{
+	border-radius:5px;
+	margin-left:90px;
+}
+.use_select{
+	border-radius:5px;
+	margin-left:80px;
+	height:30px;
+	border:1px solid grey;
+}
+.cjc_server_text{
+	position:absolute;
+}
+.cjc_server{
+	margin-left:173px;
+	border:1px solid grey;
+	width:180px;
+	height:33px;
+	font-size:15px;
+}
+.cjc_server_text_a{
+	margin-top:5.5px;
+	margin-left:5px;
+	position:absolute;
+}
+.cjc_server_input_a{
+	margin-left:40px;
+	margin-top:5.5px;
+	width:55px;
+}
+.cjc_server_text_b{
+	margin-top:-22.5px;
+	margin-left:105px;
+	position:absolute;
+}
+.cjc_server_input_b{
+	margin-left:35px;
+	margin-top:5.5px;
+	width:30px;
+}
+.cjc_close_button{
+	margin-left:70px;
+	width:100px;
+	height:28px;
+	font-size:17px;
+}

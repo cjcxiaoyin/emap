@@ -1,0 +1,73 @@
+{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"EPSG:4326"}},"features":[
+
+{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[-100.31708526611328,25.677352905273437]},"properties":{"FID":0,"NAME":"Monterrey"}},
+
+{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-106.41606903076172,23.203832626342773]},"properties":{"FID":1,"NAME":"Mazatlan"}},
+
+{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[-103.34379577636719,20.673591613769531]},"properties":{"FID":2,"NAME":"Guadalajara"}},
+
+{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[-97.842628479003906,22.243234634399414]},"properties":{"FID":3,"NAME":"Tampico"}},
+
+{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-99.127571105957031,19.427045822143555]},"properties":{"FID":4,"NAME":"Mexico City"}},
+
+{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[-98.192947387695313,19.04863166809082]},"properties":{"FID":5,"NAME":"Puebla de Zaragoza"}},
+
+{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[-96.085243225097656,19.006832122802734]},"properties":{"FID":6,"NAME":"Veracruz"}},
+
+{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[-96.951347351074219,16.907430648803711]},"properties":{"FID":7,"NAME":"Oaxaca"}},
+
+{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[-89.552864074707031,20.821868896484375]},"properties":{"FID":8,"NAME":"Merida"}},
+
+{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[-115.29423522949219,32.620204925537109]},"properties":{"FID":9,"NAME":"Mexicali"}},
+
+{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-102.18634033203125,21.853347778320313]},"properties":{"FID":10,"NAME":"Aguascalientes"}},
+
+{"type":"Feature","id":11,"geometry":{"type":"Point","coordinates":[-90.544662475585938,19.803987503051758]},"properties":{"FID":11,"NAME":"Campeche"}},
+
+{"type":"Feature","id":12,"geometry":{"type":"Point","coordinates":[-110.25386047363281,24.189830780029297]},"properties":{"FID":12,"NAME":"La Paz"}},
+
+{"type":"Feature","id":13,"geometry":{"type":"Point","coordinates":[-92.995162963867188,16.63029670715332]},"properties":{"FID":13,"NAME":"Tuxtla Gutierrez"}},
+
+{"type":"Feature","id":14,"geometry":{"type":"Point","coordinates":[-105.97515869140625,28.560297012329102]},"properties":{"FID":14,"NAME":"Chihuahua"}},
+
+{"type":"Feature","id":15,"geometry":{"type":"Point","coordinates":[-100.99582672119141,25.441856384277344]},"properties":{"FID":15,"NAME":"Saltillo"}},
+
+{"type":"Feature","id":16,"geometry":{"type":"Point","coordinates":[-103.68409729003906,19.210365295410156]},"properties":{"FID":16,"NAME":"Colima"}},
+
+{"type":"Feature","id":17,"geometry":{"type":"Point","coordinates":[-104.40000152587891,24.020000457763672]},"properties":{"FID":17,"NAME":"Durango"}},
+
+{"type":"Feature","id":18,"geometry":{"type":"Point","coordinates":[-101.15000152587891,21.010000228881836]},"properties":{"FID":18,"NAME":"Guanajuato"}},
+
+{"type":"Feature","id":19,"geometry":{"type":"Point","coordinates":[-99.383369445800781,17.357059478759766]},"properties":{"FID":19,"NAME":"Chilpancingo"}},
+
+{"type":"Feature","id":20,"geometry":{"type":"Point","coordinates":[-98.700447082519531,20.09705924987793]},"properties":{"FID":20,"NAME":"Pachuca"}},
+
+{"type":"Feature","id":21,"geometry":{"type":"Point","coordinates":[-101.07320404052734,19.663354873657227]},"properties":{"FID":21,"NAME":"Morelia"}},
+
+{"type":"Feature","id":22,"geometry":{"type":"Point","coordinates":[-99.531280517578125,19.32049560546875]},"properties":{"FID":22,"NAME":"Toluca"}},
+
+{"type":"Feature","id":23,"geometry":{"type":"Point","coordinates":[-99.181175231933594,18.950078964233398]},"properties":{"FID":23,"NAME":"Cuernavaca"}},
+
+{"type":"Feature","id":24,"geometry":{"type":"Point","coordinates":[-104.78241729736328,21.530447006225586]},"properties":{"FID":24,"NAME":"Tepic"}},
+
+{"type":"Feature","id":25,"geometry":{"type":"Point","coordinates":[-100.24117279052734,20.500740051269531]},"properties":{"FID":25,"NAME":"Queretaro"}},
+
+{"type":"Feature","id":26,"geometry":{"type":"Point","coordinates":[-88.264358520507813,18.551239013671875]},"properties":{"FID":26,"NAME":"Chetumal"}},
+
+{"type":"Feature","id":27,"geometry":{"type":"Point","coordinates":[-100.96923828125,22.13671875]},"properties":{"FID":27,"NAME":"San Luis Potosi"}},
+
+{"type":"Feature","id":28,"geometry":{"type":"Point","coordinates":[-107.45555877685547,24.713338851928711]},"properties":{"FID":28,"NAME":"Culiacan"}},
+
+{"type":"Feature","id":29,"geometry":{"type":"Point","coordinates":[-110.83422088623047,29.020444869995117]},"properties":{"FID":29,"NAME":"Hermosillo"}},
+
+{"type":"Feature","id":30,"geometry":{"type":"Point","coordinates":[-92.862548828125,17.967557907104492]},"properties":{"FID":30,"NAME":"Villahermosa"}},
+
+{"type":"Feature","id":31,"geometry":{"type":"Point","coordinates":[-98.197227478027344,19.277629852294922]},"properties":{"FID":31,"NAME":"Tlaxcala"}},
+
+{"type":"Feature","id":32,"geometry":{"type":"Point","coordinates":[-96.92547607421875,19.467729568481445]},"properties":{"FID":32,"NAME":"Jalapa"}},
+
+{"type":"Feature","id":33,"geometry":{"type":"Point","coordinates":[-102.72293853759766,22.75921630859375]},"properties":{"FID":33,"NAME":"Zacatecas"}},
+
+{"type":"Feature","id":34,"geometry":{"type":"Point","coordinates":[-99.148109436035156,23.735147476196289]},"properties":{"FID":34,"NAME":"Ciudad Victoria"}},
+
+{"type":"Feature","id":35,"geometry":{"type":"Point","coordinates":[-99.931495666503906,16.974386215209961]},"properties":{"FID":35,"NAME":"Acapulco"}}]}

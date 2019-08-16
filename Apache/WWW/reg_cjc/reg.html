@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册帐号</title>
+<link rel="stylesheet" href="css/reg.css">
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+function chk_form(){
+	var user = document.getElementById("user");
+	if(user.value==""){
+		alert("用户名不能为空！");
+		return false;
+		//user.focus();
+	}
+	var pass = document.getElementById("pass");
+	if(pass.value==""){
+		alert("密码不能为空！");
+		return false;
+		//pass.focus();
+	}
+	var email = document.getElementById("email");
+	if(email.value==""){
+		alert("Email不能为空！");
+		return false;
+		//email.focus();
+	}
+	var preg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; //匹配Email
+	if(!preg.test(email.value)){ 
+		alert("Email格式错误！");
+		return false;
+		//email.focus();
+	}
+}
+</script>
+</head>
+
+<body>
+   <div id="logo"><h2><a href="javascript:window.location.href='log.php'" title="返回登录页">返回登录</a></h2></div>
+<div id="header">
+   <div class="demo_topad">
+   		<form id="reg" action="register.php" method="post" onsubmit="return chk_form();">
+        	<span> &nbsp; 用户名：<input type="text" class="input" name="username" id="user"></span><br/><br/>
+            <span> &nbsp; 密 &nbsp; 码：<input type="password" class="input" name="password" id="pass"></span><br/><br/>
+            <span> &nbsp; 邮 &nbsp; 箱：<input type="text" class="input" name="email" id="email"></span><br/>
+            <span><input type="submit" class="btn" value="提交注册"></span>
+        </form>
+	</div>
+</div>
+
+</body>
+</html>

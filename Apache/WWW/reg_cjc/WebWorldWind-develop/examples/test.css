@@ -1,0 +1,71 @@
+.list-wrapper {
+  float: left;
+}
+.list-container {
+  height: 512px;
+  overflow: auto;
+  width: 270px;
+}
+.list-wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 250px;
+  height: 560px;
+  top:1px;
+}
+ul#selected-cities {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 0.8em;
+}
+
+ul#selected-cities > li {
+  position: relative;
+  list-style: none;
+  display: block;
+  color: white;
+  padding: 0;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+ul#selected-cities > li:hover {
+  text-decoration: underline;
+}
+
+ul#selected-cities > li:nth-last-child(1) {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+ul#selected-cities > li .square {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin: 1px 4px 0 2px;
+  border: 1px solid #555;
+  border-radius: 1em;
+}
+
+ul#selected-cities > li > input {
+  float: left;
+}
+
+ul#city-list {
+  font-size: 0.8em;
+  list-style: none;
+  padding: 0;
+  margin-top: 1px;
+}
+
+ul#city-list > li {
+  list-style: none;
+  display: block;
+  text-align: left;
+  color: white;
+}
+
+ul#city-list > li > label {
+  cursor: pointer;
+}
